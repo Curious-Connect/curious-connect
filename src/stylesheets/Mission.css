@@ -1,0 +1,31 @@
+.Mission {
+  display:flex;
+  flex-wrap: wrap;
+  width:100%
+}
+
+.section-main {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 0
+}
+
+.section-content {
+  width: 30%
+}
+
+.section-sub-all {
+  width:100%;
+  display:flex;
+  padding:0 5% 3% 5%
+}
+
+.section-sub {
+  width: 33%;
+  padding:0 5%
+}
+
+.section-sub img {
+  height: 70px;
+}

@@ -9,12 +9,15 @@ import Partners from "../components/Partners";
 import Prices from "../components/Prices";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import "../stylesheets/Home.css"
 
 export default function Home() {
   return (
     <div className="Home">
-      <Nav />
-      <Header />
+      <div className="main-page">
+        <Nav />
+        <Header />
+      </div>
       <Mission />
       <Description />
       <Community />
