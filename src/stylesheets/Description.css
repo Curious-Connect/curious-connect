@@ -1,0 +1,33 @@
+.Description {
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  color:white;
+  background-color:black
+}
+
+.Description .section-main {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 0
+}
+
+.Description .section-content {
+  width: 30%
+}
+
+.Description .section-sub-all {
+  width:100%;
+  display:flex;
+  padding:0 5% 3% 5%
+}
+
+.Description .section-sub {
+  width: 33%;
+  padding:0 5%
+}
+
+.Description .section-sub img {
+  height: 70px;
+}

@@ -3,14 +3,16 @@ import "../stylesheets/Header.css";
 
 export default function Header() {
   return (
-    <header className="hero-image">
-      <div className="hero-text">
+    <header>
+      <div className="header-content">
         <h1>
-          Vous donnez aux jeunes décrocheurs les clés pour réussir?
+          A la recherche de jeunes talents qui feront la différence ?
         </h1>
         {/* <h1>
-          L'app Curious Connect est faite pour vous!
+          Curious Connect vous accompagne pour recruter les meilleurs profils en alternance
         </h1> */}
+      </div>
+      <div className="header-img">
       </div>
     </header>
   )

@@ -1,0 +1,34 @@
+.Team {
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  color:white;
+  background-color:black
+}
+
+.Team .section-main {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 0
+}
+
+.Team .section-content {
+  width: 30%
+}
+
+.Team .section-sub-all {
+  width:100%;
+  display:flex;
+  padding:0 5% 3% 5%
+}
+
+.Team .section-sub {
+  width: 33%;
+  padding:0 5%
+}
+
+.Team .section-sub img {
+  height: 200px;
+  border-radius: 50%;
+}

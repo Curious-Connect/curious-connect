@@ -4,28 +4,28 @@
   width:100%
 }
 
-.section-main {
+.Mission .section-main {
   width:100%;
   display: flex;
   justify-content: center;
   padding: 3% 0
 }
 
-.section-content {
+.Mission .section-content {
   width: 30%
 }
 
-.section-sub-all {
+.Mission .section-sub-all {
   width:100%;
   display:flex;
   padding:0 5% 3% 5%
 }
 
-.section-sub {
+.Mission .section-sub {
   width: 33%;
   padding:0 5%
 }
 
-.section-sub img {
+.Mission .section-sub img {
   height: 70px;
 }
