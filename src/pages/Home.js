@@ -9,7 +9,11 @@ import Partners from "../components/Partners";
 import Prices from "../components/Prices";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import "../stylesheets/Home.css"
+import Swiper from "../components/Swiper"
+
+import "../stylesheets/old_stylesheets/application.css"
+import "../stylesheets/old_stylesheets/boomerang.min.css"
+import "../stylesheets/old_stylesheets/bootstrap.min.css"
 
 export default function Home() {
   return (
@@ -28,8 +32,8 @@ export default function Home() {
                               <nav className="navbar navbar-expand-lg navbar--bold navbar-light bg-default ">
                                   <div className="container navbar-container">
                                       {/* Brand/Logo */}
-                                      <a className="navbar-brand" >
-                                        <img src="images/old_images/logo3.png" alt="logo Curious Connect"/>
+                                      <a className="navbar-brand">
+                                        <img src="images/old_images/logo3.png" style={{width: 70, height: 67}} alt="logo Curious Connect"/>
                                       </a>
                                       {/* Navbar toggler */}
                                       <div className="d-inline-block">
@@ -92,50 +96,8 @@ export default function Home() {
 
 
                           {/* <!-- ------------------------ SWIPER ------------------------ --> */}
-                          <section className="swiper-js-container background-image-holder" data-holder-type="fullscreen" data-holder-offset=".navbar">
-                              {/* <!-- Swiper container --> */}
-                              <div className="swiper-container" data-swiper-autoplay="true" data-swiper-effect="fade" data-swiper-items="1" data-swiper-space-between="0" data-swiper-sm-items="1" data-swiper-sm-space-between="0" data-swiper-xs-items="1" data-swiper-xs-space-between="0">
-                                  {/* <!-- Swiper wrapper --> */}
-                                  <div className="swiper-wrapper">
-                                      {/* <!-- Slide DISCOVER --> */}
-                                      <div className="swiper-slide" data-swiper-autoplay="2750">
-                                          <div className="slice holder-item holder-item-light has-bg-cover bg-size-cover" style={{backgroundPosition: "bottom bottom"}}>
-                                              <div className="container d-flex align-items-center no-padding">
-                                                  <div className="col">
-                                                      <div className="row row-cols-xs-spaced align-items-center py-5 text-center justify-content-center">
-                                                          <div className="col-lg-8">
-                                                              <h3 className="heading heading-xl strong-700 c-white animated" data-animation-in="zoomIn" data-animation-onetime="false" data-animation-delay="200">
-                                                                  <span style={{opacity: 0.9}}>Vous donnez aux jeunes décrocheurs les clés pour réussir ?</span>
-                                                              </h3>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      {/* <!-- Slide EXPLORE --> */}
-                                      <div className="swiper-slide" data-swiper-autoplay="2750">
-                                          <div className="slice holder-item holder-item-light has-bg-cover bg-size-cover" style={{backgroundPosition: "bottom bottom"}}>
-                                              <div className="container d-flex align-items-center no-padding">
-                                                  <div className="col">
-                                                      <div className="row row-cols-xs-spaced align-items-center py-5 text-center justify-content-center">
-                                                          <div className="col-lg-8">
-                                                              <h3 className="heading heading-xl strong-700 c-white animated"data-animation-in="zoomIn" data-animation-onetime="false" data-animation-delay="200">
-                                                                  <span style={{opacity: 0.9}}>L'app Curious Connect est pour vous !</span>
-                                                              </h3>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  {/* <!-- End of swiper wrapper --> */}
-
-                                  {/* <!-- Add Pagination --> */}
-                                  <div className="swiper-pagination"></div>
-
-                              </div>
+                          <section className="swiper">
+                            <Swiper />
                               {/* <!-- End of swiper container --> */}
                           </section>
                           <div className="container align-items-center justify-content-center text-center mt-4">
@@ -542,7 +504,7 @@ export default function Home() {
                               <div className="container">
                                   <div className="section-title section-title--style-1 text-center mb-2">
                                       <h3 className="section-title-inner text-normal transformation" style={{fontFamily: "Raleway", color:"white"}}>
-                                          Rejoingnez-Nous !
+                                          Rejoignez-Nous !
                                       </h3>
                                       <span className="section-title-delimiter clearfix d-none"></span>
                                   </div>
