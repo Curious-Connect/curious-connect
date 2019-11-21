@@ -475,28 +475,7 @@ export default function Home() {
 
                           {/* <!-- ------------------------ CALL TO ACTION ------------------------ --> */}
                           <section className="slice sct-color-4" id="contact">
-                              <div className="container">
-                                  <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner text-normal transformation" style={{fontFamily: "Raleway", color:"white"}}>
-                                          Rejoignez-Nous !
-                                      </h3>
-                                      <span className="section-title-delimiter clearfix d-none"></span>
-                                  </div>
-
-                                  <span className="clearfix"></span>
-
-                                  <div className="fluid-paragraph fluid-paragraph-sm  strong-300 text-center" style={{color:"#b7c1c8"}}>
-                                      Toujours curieux ? Bravo, vous y êtes presque ! Venez nous rejoindre !
-                                  </div>
-
-                                  <span className="space-xs-xl"></span>
-
-                                  <div className="row justify-content-center">
-                                      <div className="col-lg-6">
-
-                                      </div>
-                                  </div>
-                              </div>
+                            <Contact />
                           </section>
                           {/* // <!-- ------------------------ END OF CALL TO ACTION ------------------------ --> */}
 

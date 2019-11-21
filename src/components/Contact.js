@@ -45,27 +45,46 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        <p className="contact__header">Rejoignez-Nous!</p>
-        <p className="contact__text">Toujours curieux? Bravo, vous y êtes presque! 
-        Venez nous rejoindre!</p>
-        <div className="contact__sent">
-          {(this._isSent)?
-          <p>Email sent! Thank you for contacting us!</p>
-          :
-          null
-          }
+        
+        <div className="section-title section-title--style-1 text-center mb-2">
+        <h3 className="section-title-inner text-normal transformation" style={{fontFamily: "Raleway", color:"white"}}>
+            Rejoignez-Nous !
+        </h3>
+        <span className="section-title-delimiter clearfix d-none"></span>
         </div>
-        <form className="contact__form" onSubmit={this.handleFormSubmit}>
 
-          <input placeholder="Nom" type="text" name="name" value={this.state.name} onChange={ e => this.handleChange(e)}/>
+        <span className="clearfix"></span>
 
-          <input placeholder="Email" type="text" name="email" value={this.state.email} onChange={ e => this.handleChange(e)} />
+        <div className="fluid-paragraph fluid-paragraph-sm  strong-300 text-center" style={{color:"#b7c1c8"}}>
+        Toujours curieux ? Bravo, vous y êtes presque ! Venez nous rejoindre !
+        </div>
 
-          <input style={{height:"100px"}} placeholder="Message..." type="text" name="message" value={this.state.message} onChange={ e => this.handleChange(e)}/>
-          <button className="contact__btn" type="submit">Envoie!</button>
-        </form>      
+        <span className="space-xs-xl"></span>
+
+        <div className="row justify-content-center">
+          <div className="col-lg-6">
+            <div className="contact__sent">
+              {(this._isSent)?
+              <p>Email sent! Thank you for contacting us!</p>
+              :
+              null
+              }
+            </div>
+            <form className="contact__form" onSubmit={this.handleFormSubmit}>
+
+              <input placeholder="Nom" type="text" name="name" value={this.state.name} onChange={ e => this.handleChange(e)}/>
+
+              <input placeholder="Email" type="text" name="email" value={this.state.email} onChange={ e => this.handleChange(e)} />
+
+              <input style={{height:"100px"}} placeholder="Message..." type="text" name="message" value={this.state.message} onChange={ e => this.handleChange(e)}/>
+              <button className="contact__btn" type="submit">Envoie!</button>
+            </form>      
+
+          </div>
+        </div>     
       
       </div>
     )
   }
 }
+
