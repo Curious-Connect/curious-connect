@@ -9,11 +9,14 @@ import Partners from "../components/Partners";
 import Prices from "../components/Prices";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Swiper from "../components/Swiper"
+import Swiper from "../components/Swiper";
 
 import "../stylesheets/old_stylesheets/application.css"
 import "../stylesheets/old_stylesheets/boomerang.min.css"
 import "../stylesheets/old_stylesheets/bootstrap.min.css"
+import "../stylesheets/old_stylesheets/hamburgers.min.css"
+import "../stylesheets/Home.css"
+
 
 export default function Home() {
   return (
@@ -100,11 +103,11 @@ export default function Home() {
                             <Swiper />
                               {/* <!-- End of swiper container --> */}
                           </section>
-                          <div className="container align-items-center justify-content-center text-center mt-4">
-                            <a href="#contact">
-                              <div className="btn btn-styled btn-lg btn-base-2 btn-shadow strong-600">Rejoignez-nous !</div>
-                            </a>
-                          </div>
+
+                          <a href="#contact">
+                            <div className="btn btn-styled btn-lg btn-base-2 btn-shadow strong-600 call-action">Rejoignez-nous !</div>
+                          </a>
+
                           {/* <!-- ------------------------ END OF SWIPER ------------------------ --> */}
 
                           {/* <!-- ------------------------ OUR VISION ------------------------ --> */}
@@ -357,7 +360,7 @@ export default function Home() {
                                   <span className="space-xs-xl"></span>
 
                                   <div className="row cols-xs-space cols-sm-space cols-md-space" style={{justifyContent:"center;"}}>
-                                      <div className="col-lg-4">
+                                      <div className="col-lg-3">
                                           <div className="block block--style-4">
                                               <div className="block block-image">
                                                   <div id="essai">
@@ -371,7 +374,7 @@ export default function Home() {
                                               </div>
                                           </div>
                                       </div>
-                                      <div className="col-lg-4">
+                                      <div className="col-lg-3">
                                           <div className="block block--style-4">
                                               <div className="block block-image">
                                                   <div id="essai">
@@ -385,7 +388,7 @@ export default function Home() {
                                               </div>
                                           </div>
                                       </div>
-                                      <div className="col-lg-4">
+                                      <div className="col-lg-3">
                                           <div className="block block--style-4">
                                               <div className="block block-image">
                                                   <div id="essai">
@@ -399,7 +402,7 @@ export default function Home() {
                                               </div>
                                           </div>
                                       </div>
-                                      <div className="col-lg-4">
+                                      <div className="col-lg-3">
                                           <div className="block block--style-4">
                                               <div className="block block-image">
                                                   <div id="essai">
@@ -439,27 +442,10 @@ export default function Home() {
 
                                   <span className="space-xs-xl"></span>
 
-                                  <div className="swiper-js-container">
-                                      <div className="swiper-container" data-swiper-items="3" data-swiper-space-between="20" data-swiper-md-items="2" data-swiper-sm-space-between="20" data-swiper-sm-items="2" data-swiper-sm-space-between="20" data-swiper-xs-items="2" data-swiper-sm-space-between="20">
-                                          <div className="swiper-wrapper">
-                                              <div className="swiper-slide">
-                                                  <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                                                    <img src="images/old_images/partner1.png" style={{margin:"auto"}} alt="photo de partenaire"/>
-                                                  </div>
-                                              </div>
-                                              <div className="swiper-slide">
-                                                  <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                                                    <img src="images/old_images/partner2.png" style={{margin:"auto"}} alt="photo de partenaire"/>
-                                                  </div>
-                                              </div>
-                                              <div className="swiper-slide">
-                                                  <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                                                    <img src="images/old_images/partner3.png" style={{margin:"auto"}} alt="photo de partenaire"/>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
+                                  <section className="mobile-swiper">
+                                    <Partners />
+                                  </section>
+
                               </div>
                           </section>
                           {/* <!-- ------------------------ END OF OUR PARTNERS ------------------------ --> */}
@@ -479,22 +465,10 @@ export default function Home() {
 
                                   <span className="space-xs-xl"></span>
 
-                                  <div className="swiper-js-container">
-                                      <div className="swiper-container" data-swiper-items="2" data-swiper-space-between="20" data-swiper-md-items="2" data-swiper-sm-space-between="20" data-swiper-sm-items="2" data-swiper-sm-space-between="20" data-swiper-xs-items="2" data-swiper-sm-space-between="20">
-                                          <div className="swiper-wrapper">
-                                              <div className="swiper-slide">
-                                                  <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                                                    <img src="images/old_images/2_without_bg.png" style={{margin:"auto"}} alt="photo de prix"/>
-                                                  </div>
-                                              </div>
-                                              <div className="swiper-slide">
-                                                  <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                                                    <img src="images/old_images/3_without_bg.png" style={{margin:"auto"}} alt="photo de prix"/>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
+                                  <section className="mobile-swiper">
+                                    <Prices />
+                                  </section>
+
                               </div>
                           </section>
                           {/* <!-- ------------------------ END OF OUR REWARDS ------------------------ --> */}
