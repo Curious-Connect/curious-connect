@@ -58,33 +58,13 @@ export default function Home() {
                                                   </a>
                                               </li>
                                               <li className="nav-item dropdown megamenu">
-                                                  <a className="nav-link" href="#appli">
-                                                      L'App
-                                                  </a>
-                                              </li>
-                                              <li className="nav-item dropdown megamenu">
-                                                  <a className="nav-link" href="#communauté">
-                                                      La Communauté
-                                                  </a>
-                                              </li>
-                                              <li className="nav-item dropdown megamenu">
                                                   <a className="nav-link" href="#team">
-                                                      La Dream Team
-                                                  </a>
-                                              </li>
-                                              <li className="nav-item dropdown megamenu">
-                                                  <a className="nav-link" href="#partenaires">
-                                                      Les Supers Curieux
-                                                  </a>
-                                              </li>
-                                              <li className="nav-item dropdown megamenu">
-                                                  <a className="nav-link" href="#recompenses">
-                                                      Nos Récompenses
+                                                      L'Equipe
                                                   </a>
                                               </li>
                                               <li className="nav-item dropdown megamenu">
                                                   <a className="nav-link" href="#contact">
-                                                      Rejoignez-nous !
+                                                      Le Curious Connect Club
                                                   </a>
                                               </li>
                                           </ul>
@@ -105,7 +85,7 @@ export default function Home() {
                           </section>
 
                           <a href="#contact">
-                            <div className="btn btn-styled btn-lg btn-base-2 btn-shadow strong-600 call-action">Rejoignez-nous !</div>
+                            <div className="btn btn-styled btn-lg btn-base-2 btn-shadow strong-600 call-action">Rejoignez le Curious Connect Club</div>
                           </a>
 
                           {/* <!-- ------------------------ END OF SWIPER ------------------------ --> */}
@@ -115,7 +95,7 @@ export default function Home() {
                               <div className="container">
 
                                   <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner transformation">
+                                      <h3 className="section-title-inner ">
                                           <span>Notre Mission</span>
                                       </h3>
                                       <span className="section-title-delimiter clearfix d-none"></span>
@@ -125,8 +105,7 @@ export default function Home() {
 
                                   <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
                                       <p className="text-lg line-height-1_8">
-                                          Accompagner les jeunes des Quartiers Prioritaires de la Ville en <span className="underlined">décrochage scolaire</span> vers le
-                                          retour en formation grâce à notre <span className="underlined">application d'e-learning</span> personnalisée.
+                                        <strong>Faire rimer Alternance avec excellence.</strong> <br></br> Curious Connect est une start-up Tech basée en Île-de-France. Notre mission est de lancer la carrière de jeunes talents dans les entreprises de demain en alternance. 
                                       </p>
                                   </div>
 
@@ -136,214 +115,41 @@ export default function Home() {
                                       <div className="col-lg-4">
                                           <div className="icon-block icon-block--style-2-v1 text-center">
                                               <img className="block-icon" src="images/old_images/point1.png" alt="Une icône qui représente l'ajustement"/>
-                                              <h2 className="heading heading-4 strong-500 transformation" style={{color: "#E61D25"}}>Une plateforme unique pour un parcours sur mesure</h2>
+                                              <h2 className="heading heading-4 strong-500" style={{color: "#E61D25"}}>Pour les Centres de Formation (CFA)</h2>
                                               <p className="px-4" style={{color: "#818a91"}}>
-                                                  Curious Connect centralise les <span className="underlined">ressources et formations</span> accessibles localement aux jeunes
-                                                  pour les suivre tout au long de leur <span className = "underlined">réinsertion</span>.
+                                                  Notre programme accéléré de placement en entreprise allie du coaching personnalisé et des candidatures spontanées automatisées.
                                               </p>
                                           </div>
                                       </div>
                                       <div className="col-lg-4">
                                           <div className="icon-block icon-block--style-2-v1 text-center">
                                               <img className="block-icon" src="images/old_images/point2.png" alt="Une icône fun d'une licorne qui apprend"/>
-                                              <h2 className="heading heading-4 strong-500 transformation" style={{color: "#2FBEB7"}}>Une solution mobile 100% jeune et dynamique</h2>
+                                              <h2 className="heading heading-4 strong-500 " style={{color: "#2FBEB7"}}>Pour les Entreprises</h2>
                                               <p className="px-4" style={{color: "#818a91"}}>
-                                                Curious Connect est une solution digitale <span className="underlined">gamifiée et innovante</span> faite par des jeunes
-                                                engagé.e.s pour des jeunes fragilisé.e.s.
+                                                Notre solution de matching sur mesure et de suivi numérique des progrès vous garantit des alternants motivés et une intégration réussie.
                                               </p>
                                           </div>
                                       </div>
                                       <div className="col-lg-4">
                                           <div className="icon-block icon-block--style-2-v1 text-center">
                                               <img className="block-icon" src="images/old_images/point3.png" alt="Une icône de Wifi"/>
-                                              <h2 className="heading heading-4 strong-500 transformation" style={{color: "#363390"}}>Une communauté connectée</h2>
+                                              <h2 className="heading heading-4 strong-500 " style={{color: "#363390"}}>Pour les Jeunes Talents</h2>
                                               <p className="px-4" style={{color: "#818a91"}}>
-                                                Curious Connect place les jeunes au sein d'une communauté d’acteurs associatifs, publics et
-                                                privés engagés pour <span className="underlined">la réinsertion des jeunes</span> et <span className="underlined">l’accès aux formations</span> de
-                                                demain.
+                                                Notre accompagnement inclut des ressources en ligne adaptées et une visibilité sur les réseaux professionnels pour mieux vous connecter aux opportunités.
                                               </p>
                                           </div>
                                       </div>
                                   </div>
                               </div>
                           </section>
-                          {/* <!-- ------------------------ END OF 3 POINTS ------------------------ --> */}
-
-
-                          {/* <!-- ------------------------ THE PRODUCT ------------------------ --> */}
-
-
-                          <section className="slice-lg sct-color-4" id="appli">
-                              <div className="sct-inner container">
-
-                                  <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner transformation" style={{color:"white"}}>
-                                          <span>L'App</span>
-                                      </h3>
-                                      <span className="section-title-delimiter clearfix d-none"></span>
-                                  </div>
-
-                                  <span className="clearfix"></span>
-
-                                  <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
-                                      <p className="text-lg line-height-1_8" style={{color:"#b7c1c8"}}>
-                                          Une interface simple, accessible et gratuite pour le jeune qui peut :
-                                      </p>
-                                  </div>
-
-                                  <span className="space-xs-xl"></span>
-
-                                  <div className="row cols-xs-space cols-sm-space align-items-center">
-
-                                      <div className="col-lg-4 col-md-6 col-12">
-
-                                          <div className="icon-block--style-1-v1 block-icon-right">
-                                              <img className="block-icon" src="images/old_images/needs.png" alt="Une icône qui représente la récolte de besoins"/>
-                                              <div className="block-content">
-                                                  <h3 className="heading heading-5 strong-600 transformation" style={{color:"#2FBEB7"}}>Définir ses besoins</h3>
-                                                  <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                      Le jeune crée son profil en <span className = "underlined">3 minutes</span> puis se fixe des objectifs avec son référent
-                                                  </p>
-                                              </div>
-                                          </div>
-
-                                          <span className="space-xs-md space-sm-xl"></span>
-
-                                          <div className="icon-block--style-1-v1 block-icon-right">
-                                              <img className="block-icon" src="images/old_images/jeux.png" alt="Une icône qui représente la gamification"/>
-                                              <div className="block-content">
-                                                  <h3 className="heading heading-5 strong-600 transformation" style={{color:"#E61D25"}}>Jouer pour mieux raccrocher</h3>
-                                                  <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                      Le jeune est en situation de jeu pour une démarche <span className = "underlined">active et ludique</span> de réinsertion
-                                                  </p>
-                                              </div>
-                                          </div>
-
-                                      </div>
-
-                                      <div className="col-lg-4 col-12 hidden-md-down">
-                                          <img className="img-center img-responsive" style={{width:"300px"}} src="final_app.png" alt="Une image de la maquette de l'app"/>
-                                      </div>
-
-
-                                      <div className="col-lg-4 col-md-6 col-12">
-                                          <div className="icon-block--style-1-v1">
-                                              <img className="block-icon" src="images/old_images/app1c.png" alt="Une icône qui représente le fait de poser des questions"/>
-                                              <div className="block-content">
-                                                  <h3 className="heading heading-5 strong-600 transformation"  style={{color:"#2FBEB7"}}>Poser toutes ses questions</h3>
-                                                  <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                      En un clic le jeune pose ses questions et <span className = "underlined">la communauté y répond</span>
-                                                  </p>
-                                              </div>
-                                          </div>
-
-                                          <span className="space-xs-md space-sm-xl"></span>
-
-                                          <div className="icon-block--style-1-v1">
-                                              <img className="block-icon" src="images/old_images/skills.png" alt="Une icône qui représente l(accumulation de skills)"/>
-                                              <div className="block-content">
-                                                  <h3 className="heading heading-5 strong-600 transformation" style={{color:"#E61D25"}}>Booster ses compétences</h3>
-                                                  <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                      Le jeune peut se former <span className = "underlined">directement sur l'app</span> et rapidement <span className="underlined">réserver les évènements</span><span className="underlined">près de chez lui</span>
-                                                  </p>
-                                              </div>
-                                          </div>
-
-                                      </div>
-
-                                  </div>
-                              </div>
-                          </section>
-                          {/* <!-- ------------------------ END OF THE PRODUCT ------------------------ --> */}
-
-                          {/* <!-- ------------------------ COMMUNITY ------------------------ --> */}
-                          <section className="slice-lg sct-color-1" id="communauté">
-                              <div className="sct-inner container">
-
-                                  <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner transformation">
-                                          <span>La Communauté</span>
-                                      </h3>
-                                      <span className="section-title-delimiter clearfix d-none"></span>
-                                  </div>
-
-                                  <span className="clearfix"></span>
-
-                                  <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
-                                      <p className="text-lg line-height-1_8" style={{color:"#818a91"}}>
-                                        Une plateforme centralisée pour gagner en visibilité et efficacité. Rejoignez la communauté des acteurs engagés de votre territoire et démultipliez votre
-                                        impact, <a href="#contact">avec nous !</a>
-                                      </p>
-                                  </div>
-
-                                  <div className="col-lg-12 col-12 hidden-md-down">
-                                    <img src="images/old_images/community.png" className= "img-center img-responsive" style ={{width:"200px"}} alt="une image qui représente la communauté"/>
-                                  </div>
-
-                                  <span className="space-xs-xl"></span>
-
-                                  <div className="row cols-xs-space cols-sm-space align-items-center">
-
-                                      <div className="col-lg-6 col-md-6 col-12">
-
-                                          <div className="icon-block--style-1-v1 block-icon-right">
-                                              <img src="images/old_images/app4c.png" className="block-icon" alt="une icône qui représente les échanges"/>
-                                              <div className="block-content">
-                                                  <h3 className="heading heading-5 strong-600 transformation" style={{color:"#2FBEB7"}}>Echangez avec les jeunes</h3>
-                                                  <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                      Echangez directement avec les jeunes via notre mur aux questions
-                                                  </p>
-                                              </div>
-                                          </div>
-
-                                          <span className="space-xs-md space-sm-xl"></span>
-
-                                          <div className="icon-block--style-1-v1 block-icon-right">
-                                              <img src="images/old_images/savoir.png" className="block-icon" alt="une icône qui représente le savoir"/>
-                                              <div className="block-content">
-                                                  <h3 className="heading heading-5 strong-600 transformation" style={{color:"#E61D25"}}>Partagez vos formations</h3>
-                                                  <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                    Mettez en ligne vos contenus, ateliers et formations tout format auprès des jeunes que vous
-                                                    accompagnez
-                                                  </p>
-                                              </div>
-                                          </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12">
-                                            <div className="icon-block--style-1-v1">
-                                            <img src="images/old_images/visibility.png" className="block-icon" alt="une icône qui représente la visibilité"/>
-                                                <div className="block-content">
-                                                    <h3 className="heading heading-5 strong-600 transformation"  style={{color:"#2FBEB7"}}>Référencez votre structure</h3>
-                                                    <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                      Touchez plus de jeunes avec notre référencement gratuit
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                            <span className="space-xs-md space-sm-xl"></span>
-
-                                            <div className="icon-block--style-1-v1">
-                                                <img src="images/old_images/trace.png" className="block-icon" alt="une icône qui représente le suivi"/>
-                                                <div className="block-content">
-                                                    <h3 className="heading heading-5 strong-600 transformation" style={{color:"#E61D25"}}>Suivez les jeunes jusqu'au bout</h3>
-                                                    <p className="mt-3" style={{color:"#b7c1c8"}}>
-                                                        Suivez les jeunes sur le long terme avec notre tableau de bord
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                      </div>
-                              </div>
-                          </section>
-                          {/* <!-- ------------------------ END OF COMMUNITY ------------------------ --> */}
+                          {/* <!-- ------------------------ END OF 3 POINTS ------------------------ --> */}    
 
                           {/* <!-- ------------------------ OUR TEAM ------------------------ --> */}
                           <section className="slice-lg sct-color-4" id="team">
                               <div className="container">
                                   <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner transformation" style={{color:"white"}}>
-                                          <span>La Dream Team</span>
+                                      <h3 className="section-title-inner " style={{color:"white"}}>
+                                          <span>L'Equipe</span>
                                       </h3>
                                       <span className="section-title-delimiter clearfix d-none"></span>
                                   </div>
@@ -352,8 +158,8 @@ export default function Home() {
 
                                   <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
                                       <p className="text-lg line-height-1_8" style={{color:"#b7c1c8"}}>
-                                        Issus des quartiers, notre team de choc veut casser les barrières à l’éducation et au
-                                        numérique. Parce que le monde de demain appartient aux curieux d’aujourd’hui !
+                                        Notre équipe issue de la diversité veut casser les barrières à l’éducation grâce au
+                                        numérique pour tous les talents, où qu'ils se trouvent.
                                       </p>
                                   </div>
 
@@ -426,7 +232,7 @@ export default function Home() {
                               <div className="sct-inner container">
 
                                   <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner transformation">
+                                      <h3 className="section-title-inner ">
                                           <span>Les Supers Curieux</span>
                                       </h3>
                                       <span className="section-title-delimiter clearfix d-none"></span>
@@ -455,7 +261,7 @@ export default function Home() {
                               <div className="sct-inner container">
 
                                   <div className="section-title section-title--style-1 text-center mb-2">
-                                      <h3 className="section-title-inner transformation" style={{color:"white"}}>
+                                      <h3 className="section-title-inner " style={{color:"white"}}>
                                           <span>Nos Récompenses</span>
                                       </h3>
                                       <span className="section-title-delimiter clearfix d-none"></span>

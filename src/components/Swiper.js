@@ -12,7 +12,7 @@ export default class Swiper extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 500,
+      speed: 300,
       cssEase: "linear",
       fade:true
     };
@@ -21,12 +21,12 @@ export default class Swiper extends Component {
         <Slider {...settings} style={{display:"flex", alignItems:"center", height:"100%"}}>
           <div>
             <h3 className="heading heading-xl strong-700 c-white">
-              <span style={{opacity: 0.9}}>Vous donnez aux jeunes décrocheurs les clés pour réussir ?</span>
+              <span style={{opacity: 0.9}}>Curious Connect accélère la Carrière de Jeunes Talents en Alternance</span>
             </h3>
           </div>
           <div>
             <h3 className="heading heading-xl strong-700 c-white">
-              <span style={{opacity: 0.9}}>L'app Curious Connect est faite pour vous !</span>
+              <span style={{opacity: 0.9}}>Nous accompagnons Entreprises, CFA et Alternants vers l'excellence</span>
             </h3>
           </div>
         </Slider>

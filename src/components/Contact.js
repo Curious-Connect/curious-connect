@@ -47,8 +47,8 @@ export default class Contact extends Component {
       <div className="contact">
         
         <div className="section-title section-title--style-1 text-center mb-2">
-        <h3 className="section-title-inner text-normal transformation" style={{fontFamily: "Raleway", color:"white"}}>
-            Rejoignez-Nous !
+        <h3 className="section-title-inner text-normal" style={{fontFamily: "Raleway", color:"white"}}>
+            Rejoignez le Curious Connect Club
         </h3>
         <span className="section-title-delimiter clearfix d-none"></span>
         </div>
@@ -56,7 +56,7 @@ export default class Contact extends Component {
         <span className="clearfix"></span>
 
         <div className="fluid-paragraph fluid-paragraph-sm  strong-300 text-center" style={{color:"#b7c1c8"}}>
-        Toujours curieux ? Bravo, vous y êtes presque ! Venez nous rejoindre !
+          Rejoignez une communauté d'entreprises et de CFA engagés pour l'alternance et la diversité.
         </div>
 
         <span className="space-xs-xl"></span>
