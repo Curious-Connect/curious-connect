@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class Partners extends Component {
+export default class Rewards extends Component {
   render() {
     var settings = {
       dots: true,
@@ -37,36 +37,26 @@ export default class Partners extends Component {
     };
     return (
 
-      <section className="slice-lg sct-color-1" id="partners">
+      <section className="slice-lg sct-color-4" id="rewards">
         <div className="sct-inner container">
           <div className="section-title section-title--style-1 text-center mb-2">
-            <h3 className="section-title-inner ">
-              <span>Les Supers Curieux</span>
+            <h3 className="section-title-inner " style={{color:"white"}}>
+              <span>Nos Récompenses</span>
             </h3>
             <span className="section-title-delimiter clearfix d-none"></span>
           </div>
           <span className="clearfix"></span>
-          <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
-            <p className="text-lg line-height-1_8">
-              Parce qu’ils nous soutiennent et nous poussent vers le haut, un GRAND merci !
-            </p>
-          </div>
           <span className="space-xs-xl"></span>
           <section className="mobile-swiper">
             <Slider {...settings}>
               <div className="swiper-slide">
                 <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                  <img src="images/old_images/partner1.png" style={{margin:"auto"}} alt="photo de partenaire"/>
+                  <img src="images/old_images/2_without_bg.png" style={{margin:"auto"}} alt="photo de prix"/>
                 </div>
               </div>
               <div className="swiper-slide">
                 <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                  <img src="images/old_images/partner2.png" style={{margin:"auto"}} alt="photo de partenaire"/>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
-                  <img src="images/old_images/partner3.png" style={{margin:"auto"}} alt="photo de partenaire"/>
+                  <img src="images/old_images/3_without_bg.png" style={{margin:"auto"}} alt="photo de prix"/>
                 </div>
               </div>
             </Slider>

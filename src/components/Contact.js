@@ -44,23 +44,18 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <div className="contact">
-        
+      <section className="slice sct-color-4" id="contact">
         <div className="section-title section-title--style-1 text-center mb-2">
-        <h3 className="section-title-inner text-normal" style={{fontFamily: "Raleway", color:"white"}}>
+          <h3 className="section-title-inner text-normal" style={{fontFamily: "Raleway", color:"white"}}>
             Rejoignez le Curious Connect Club
-        </h3>
-        <span className="section-title-delimiter clearfix d-none"></span>
+          </h3>
+          <span className="section-title-delimiter clearfix d-none"></span>
         </div>
-
         <span className="clearfix"></span>
-
         <div className="fluid-paragraph fluid-paragraph-sm  strong-300 text-center" style={{color:"#b7c1c8"}}>
           Rejoignez une communauté d'entreprises et de CFA engagés pour l'alternance et la diversité.
         </div>
-
         <span className="space-xs-xl"></span>
-
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="contact__sent">
@@ -71,19 +66,14 @@ export default class Contact extends Component {
               }
             </div>
             <form className="contact__form" onSubmit={this.handleFormSubmit}>
-
               <input placeholder="Nom" type="text" name="name" value={this.state.name} onChange={ e => this.handleChange(e)}/>
-
               <input placeholder="Email" type="text" name="email" value={this.state.email} onChange={ e => this.handleChange(e)} />
-
               <input style={{height:"100px"}} placeholder="Message..." type="text" name="message" value={this.state.message} onChange={ e => this.handleChange(e)}/>
               <button className="contact__btn" type="submit">Envoie!</button>
             </form>      
-
           </div>
         </div>     
-      
-      </div>
+      </section>
     )
   }
 }
