@@ -6,8 +6,9 @@ export default class Partners extends Component {
   render() {
     var settings = {
       dots: true,
-      infinite: false,
-      speed: 500,
+      infinite: true,
+      autoplay: true,
+      speed: 100,
       slidesToShow: 3,
       initialSlide: 0,
       responsive: [
