@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "../stylesheets/Partners.css"
 
 export default class Partners extends Component {
   render() {
@@ -55,18 +56,38 @@ export default class Partners extends Component {
           <section className="mobile-swiper">
             <Slider {...settings}>
               <div className="swiper-slide">
-                <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
+                <div className="partner-img">
                   <img src="images/old_images/partner1.png" style={{margin:"auto"}} alt="photo de partenaire"/>
                 </div>
               </div>
               <div className="swiper-slide">
-                <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
+                <div className="partner-img">
                   <img src="images/old_images/partner2.png" style={{margin:"auto"}} alt="photo de partenaire"/>
                 </div>
               </div>
               <div className="swiper-slide">
-                <div className="client-logo client-logo--style-3 img-responsive" style={{textAlign:"center"}}>
+                <div className="partner-img">
                   <img src="images/old_images/partner3.png" style={{margin:"auto"}} alt="photo de partenaire"/>
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="partner-img">
+                  <img src="images/old_images/partner4.png" style={{margin:"auto"}} alt="photo de partenaire"/>
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="partner-img">
+                  <img src="images/old_images/partner5.png" style={{margin:"auto"}} alt="photo de partenaire"/>
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="partner-img">
+                  <img src="images/old_images/partner6.png" style={{margin:"auto"}} alt="photo de partenaire"/>
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="partner-img">
+                  <img src="images/old_images/partner7.jpeg" style={{margin:"auto"}} alt="photo de partenaire"/>
                 </div>
               </div>
             </Slider>

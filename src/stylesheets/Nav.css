@@ -1,16 +1,13 @@
 /* nav {
   display:flex;  
-  padding-right: 2%;
-  padding-left: 2%;
-  margin-right: auto;
-  margin-left:auto;
-  justify-content: space-between;
+  flex-wrap:wrap;
   align-items: center;
   height:10%;
+  width: 100%
 }
 
 .logo {
-  margin-right:1rem;
+  width: 10%;
   height:100%;
   display:flex;
   align-items: center;
@@ -20,11 +17,19 @@
   width: 70px;
 }
 
+nav ul {
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+}
+
 .nav-list {
   list-style: none;
   display:flex;
+  margin:0;
+  padding:0;
   justify-content: space-between;
-  width: 90%;
   padding-left:0;
   align-items:start;
   margin:0
