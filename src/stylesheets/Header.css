@@ -1,45 +1,28 @@
-header {
-  width:100%;
-  display:flex;
-  height: 90%
+.withBg {
+  background-image: url("/images/old_images/fond13.jpg");
+  height:70vh;
+  background-position: bottom bottom; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.header-content {
-  width: 60%;
-  background-color:black;
-  color:white;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 1200px) { 
+  .heading-h3 {
+    font-size: 3rem;
+    margin: 15px !important;
+  }
 }
 
-.header-img {
-  width: 40%;
-  background-image: url("/images/aissatou.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+@media (min-width: 700px) and (max-width: 1200px) { 
+  .heading-h3 {
+    font-size: 3rem;
+    margin: 10px !important;
+  }
 }
 
-.header-img img {
-  width: 100%;
+@media (max-width: 700px) { 
+  .heading-h3 {
+    font-size: 2.5rem;
+    margin: 10px !important;
+  }
 }
-
-/* .hero-image {
-  background-image: url("/images/fond13.jpg");
-  height: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:white
-} */

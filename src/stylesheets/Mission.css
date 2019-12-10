@@ -1,31 +1,3 @@
-.Mission {
-  display:flex;
-  flex-wrap: wrap;
-  width:100%
-}
-
-.Mission .section-main {
-  width:100%;
-  display: flex;
-  justify-content: center;
-  padding: 3% 0
-}
-
-.Mission .section-content {
-  width: 30%
-}
-
-.Mission .section-sub-all {
-  width:100%;
-  display:flex;
-  padding:0 5% 3% 5%
-}
-
-.Mission .section-sub {
-  width: 33%;
-  padding:0 5%
-}
-
-.Mission .section-sub img {
-  height: 70px;
+.bold {
+  font-weight: bold;
 }

@@ -24,7 +24,9 @@ export default function Team() {
             <div className="block block-image">
               <div id="essai">
                 <img src="images/old_images/tatijana5.png" className="block-icon circle imageo" alt="photo Tatijana"/>
-                <img src="images/old_images/linkedin_icon.png" className="middle" alt="icone Linkedin" onClick="window.open('https://www.linkedin.com/in/tatijana-rajcic-692389139')"/>
+                <a href="https://www.linkedin.com/in/tatijana-rajcic-692389139">
+                  <img src="images/old_images/linkedin_img.png" className="middle" alt="icone Linkedin"/>
+                </a>
               </div>
             </div>
             <div className="block-body" style={{textAlign:"center"}}>
@@ -38,7 +40,9 @@ export default function Team() {
             <div className="block block-image">
               <div id="essai">
                 <img src="images/old_images/bianca3.png" className="block-icon circle imageo" alt="photo Bianca"/>
-                <img src="images/old_images/linkedin_icon.png" className="middle" alt="icone Linkedin" onClick="window.open('https://www.linkedin.com/in/bianca-schor-443a10102')"/>
+                <a href="https://www.linkedin.com/in/bianca-schor-443a10102">
+                  <img src="images/old_images/linkedin_img.png" className="middle" alt="icone Linkedin"/>
+                </a>
               </div>
             </div>
             <div className="block-body" style={{textAlign:"center"}}>
@@ -52,7 +56,9 @@ export default function Team() {
             <div className="block block-image">
               <div id="essai">
                 <img src="images/old_images/rafael4.png" className="block-icon circle imageo" alt="photo Raphaël"/>
-                <img src="images/old_images/linkedin_icon.png" className="middle" alt="icone Linkedin" onClick="window.open('https://www.linkedin.com/in/rafaelcoyaud/')"/>
+                <a href="https://www.linkedin.com/in/rafaelcoyaud">
+                  <img src="images/old_images/linkedin_img.png" className="middle" alt="icone Linkedin"/>
+                </a>
               </div>
             </div>
             <div className="block-body" style={{textAlign:"center"}}>
@@ -66,7 +72,9 @@ export default function Team() {
             <div className="block block-image">
               <div id="essai">
                 <img src="images/old_images/thomas.jpg" className="block-icon circle imageo" alt="photo Thomas"/>
-                <img src="images/old_images/linkedin_icon.png" className="middle" alt="icone Linkedin" onClick="window.open('https://www.linkedin.com/in/thomas-casca-7a2a96175')"/>
+                <a href="https://www.linkedin.com/in/thomas-casca-7a2a96175">
+                  <img src="images/old_images/linkedin_img.png" className="middle" alt="icone Linkedin"/>
+                </a>
               </div>
             </div>
             <div className="block-body" style={{textAlign:"center"}}>

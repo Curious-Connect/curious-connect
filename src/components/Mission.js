@@ -17,7 +17,7 @@ export default function Mission() {
 
         <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
           <p className="text-lg line-height-1_8">
-            <strong>Faire rimer Alternance avec excellence.</strong> <br></br> Curious Connect est une start-up Tech basée en Île-de-France. Notre mission est de lancer la carrière de jeunes talents dans les entreprises de demain en alternance. 
+            <span className="bold">Faire rimer Alternance avec excellence.</span> <br></br> Curious Connect est une start-up Tech basée en Île-de-France. Notre mission est de lancer la carrière de jeunes talents dans les entreprises de demain en alternance. 
           </p>
         </div>
 

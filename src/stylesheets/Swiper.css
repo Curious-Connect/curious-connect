@@ -1,7 +1,0 @@
-.withBg {
-  background-image: url("/images/old_images/fond13.jpg");
-  height:70vh;
-  background-position: bottom bottom; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}

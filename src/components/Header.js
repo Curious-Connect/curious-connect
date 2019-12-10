@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import "../stylesheets/Swiper.css"
+import "../stylesheets/Header.css"
 
 export default class Header extends Component {
   render() {
@@ -20,12 +20,12 @@ export default class Header extends Component {
       <div className="withBg"> 
         <Slider {...settings} style={{display:"flex", alignItems:"center", height:"100%"}}>
           <div>
-            <h3 className="heading heading-xl strong-700 c-white">
+            <h3 className="heading heading-h3 strong-700 c-white">
               <span style={{opacity: 0.9}}>Curious Connect accélère la Carrière de Jeunes Talents en Alternance</span>
             </h3>
           </div>
           <div>
-            <h3 className="heading heading-xl strong-700 c-white">
+            <h3 className="heading heading-h3 strong-700 c-white">
               <span style={{opacity: 0.9}}>Nous accompagnons Entreprises, CFA et Alternants vers l'excellence</span>
             </h3>
           </div>
