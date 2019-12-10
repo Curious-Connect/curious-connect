@@ -12,10 +12,20 @@ export default function Footer() {
                 <h4 className="heading heading-xs strong-600 text-uppercase mb-1">
                   Get in touch
                 </h4>
-                <ul className="social-media social-media--style-4-v4">
+                <ul className="social-media">
                   <li>
-                    <a href="https://www.linkedin.com/company/curious-connect/about/?viewAsMember=true" className="linkedin" target="_blank" data-toggle="tooltip" data-original-title="Linkedin">
-                      <i className="fa fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/company/curious-connect/about/?viewAsMember=true">
+                      <img src="images/old_images/linkedin.png" alt="linkedin icon"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/curious-connect/about/?viewAsMember=true">
+                      <img src="images/old_images/twitter.png" alt="twitter icon"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/curious-connect/about/?viewAsMember=true">
+                      <img src="images/old_images/instagram.png" alt="instagram icon"/>
                     </a>
                   </li>
                 </ul>
