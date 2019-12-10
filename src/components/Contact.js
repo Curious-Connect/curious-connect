@@ -68,11 +68,11 @@ export default class Contact extends Component {
                 null
                 }
               </div>
-              <form className="contact__form" onSubmit={this.handleFormSubmit}>
-                <input placeholder="Nom" type="text" name="name" value={this.state.name} onChange={ e => this.handleChange(e)}/>
-                <input placeholder="Email" type="text" name="email" value={this.state.email} onChange={ e => this.handleChange(e)} />
-                <input style={{height:"100px"}} placeholder="Message..." type="text" name="message" value={this.state.message} onChange={ e => this.handleChange(e)}/>
-                <button className="contact__btn" type="submit">Envoie!</button>
+              <form className="contact__form form-group" onSubmit={this.handleFormSubmit}>
+                <input className="form-control" placeholder="Nom" type="text" name="name" value={this.state.name} onChange={ e => this.handleChange(e)}/>
+                <input className="form-control" placeholder="Email" type="text" name="email" value={this.state.email} onChange={ e => this.handleChange(e)} />
+                <input className="form-control" style={{height:"100px"}} placeholder="Message..." type="text" name="message" value={this.state.message} onChange={ e => this.handleChange(e)}/>
+                <button className="btn contact__btn" type="submit">Envoie!</button>
               </form>      
             </div>
           </div>     

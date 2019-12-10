@@ -65,7 +65,7 @@ export default function Team() {
           <div className="block block--style-4">
             <div className="block block-image">
               <div id="essai">
-                <img src="images/old_images/thomas_with_BG.png" className="block-icon circle imageo" alt="photo Thomas"/>
+                <img src="images/old_images/thomas.jpg" className="block-icon circle imageo" alt="photo Thomas"/>
                 <img src="images/old_images/linkedin_icon.png" className="middle" alt="icone Linkedin" onClick="window.open('https://www.linkedin.com/in/thomas-casca-7a2a96175')"/>
               </div>
             </div>
