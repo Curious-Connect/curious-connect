@@ -28,7 +28,7 @@ export default class Nav extends Component {
 
           <MediaQuery minDeviceWidth={800}>
             {/* Navbar links */}
-            <div className="">
+            <div className="navbar-menu">
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <a className="nav-link" href="#mission">
