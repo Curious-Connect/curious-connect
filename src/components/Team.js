@@ -31,7 +31,7 @@ export default function Team() {
             </div>
             <div className="block-body" style={{textAlign:"center"}}>
               <h3 className="heading heading-5 strong-500" style={{color:"white"}}>Tatijana Rajcic</h3>
-              <h4 className="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Contributrice créative</h4>
+              <h4 className="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Contributrice créative & Dev</h4>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Team() {
             </div>
             <div className="block-body" style={{textAlign:"center"}}>
               <h3 className="heading heading-5 strong-500" style={{color:"white"}}>Thomas Casca</h3>
-              <h4 className="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Contributeur créatif</h4>
+              <h4 className="heading heading-xs strong-400 text-uppercase letter-spacing-2 c-gray-light">Contributeur créatif & Dev</h4>
             </div>
           </div>
         </div>
