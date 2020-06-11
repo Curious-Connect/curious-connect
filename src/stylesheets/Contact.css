@@ -1,0 +1,28 @@
+.contact__sent {
+    color: red;
+}
+
+.contact__form>input {
+    border-radius: 6px;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+
+ .contact__btn {
+    background-color: crimson;
+    height: 50px;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 15px;
+    width: 100%;
+    color:white
+}
+
+.contact__btn:hover {
+    background-color: indigo;
+}
+
+.underlined {
+    font-style: italic;
+    font-weight: bold
+}

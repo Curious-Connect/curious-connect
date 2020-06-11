@@ -1,0 +1,62 @@
+.withBg {
+  background-image: url("/images/old_images/fond13.jpg");
+  height: 70vh;
+  background-position: bottom bottom; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media (min-width: 1200px) {
+  .heading-h3 {
+    font-size: 3rem;
+    margin: 15px !important;
+  }
+
+  .frontImage {
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+
+    background-image: url("/images/effrei1.png");
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .heading-h3 {
+    font-size: 3rem;
+    margin: 10px !important;
+  }
+
+  .frontImage {
+    background-image: url("/images/effrei1.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heading-h3 {
+    font-size: 2.5rem;
+    margin: 10px !important;
+  }
+
+  .frontImage {
+    background-image: url("/images/visuel_oc.png");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    margin-top: 10px;
+  }
+}

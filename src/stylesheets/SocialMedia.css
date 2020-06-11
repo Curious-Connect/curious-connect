@@ -1,0 +1,9 @@
+.social-media{
+  display:flex;
+  justify-content: center;
+  align-items: center
+}
+
+.social-media li {
+  margin: 5px;
+}

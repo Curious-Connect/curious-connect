@@ -1,0 +1,33 @@
+nav .navbar-menu{
+  width:90%;
+}
+
+nav .main-link {
+  color: #363390 !important
+}
+
+nav .main-link:hover {
+  color: black !important;
+}
+
+nav .navbar-nav{
+  width:100%;
+  justify-content: space-around
+}
+nav .hidden-mobile-nav {
+  display: none
+}
+
+nav .hamburger-menu-closed {
+  display:none
+}
+
+nav .close-btn-hidden {
+  display:none
+}
+
+@media (max-width: 800px) { 
+  nav .mobile-nav {
+    width:100%
+  }
+}
