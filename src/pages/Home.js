@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Mission from "../components/Mission";
 import Team from "../components/Team";
@@ -8,14 +8,13 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 
-
-import "../stylesheets/old_stylesheets/application.css"
-import "../stylesheets/old_stylesheets/boomerang.min.css"
-import "../stylesheets/old_stylesheets/bootstrap.min.css"
-import "../stylesheets/old_stylesheets/hamburgers.min.css"
-import "../stylesheets/Home.css"
+import "../stylesheets/old_stylesheets/application.css";
+import "../stylesheets/old_stylesheets/boomerang.min.css";
+import "../stylesheets/old_stylesheets/bootstrap.min.css";
+import "../stylesheets/old_stylesheets/hamburgers.min.css";
+import "../stylesheets/Home.css";
 
 export default function Home() {
   return (
@@ -31,13 +30,30 @@ export default function Home() {
                 <Nav />
                 <section className="header">
                   <Header />
-                  <a onClick={() =>
+                  {/*<a onClick={() =>
                     ReactGA.event({
                       category: "more info",
                       action: "user clicked first button",
                     })} href="#contact">
                     <div className="btn btn-styled btn-lg btn-base-2 btn-shadow strong-600 call-action">Inscris-toi au programme !</div>
-                  </a>
+                  </a>*/}
+                  <div>
+                    <div
+                      onClick={() => {
+                        ReactGA.event({
+                          category: "interested company",
+                          action: "a company opened the inscription form",
+                        });
+                        window.open(
+                          "https://airtable.com/shr7oQRclG6pOitQp",
+                          "_blank"
+                        );
+                      }}
+                      className="btn btn-styled btn-lg btn-base-2 btn-shadow strong-600 call-action"
+                    >
+                      Recrutez vos futurs Talents !
+                    </div>
+                  </div>
                 </section>
                 <Mission />
                 <Team />
@@ -56,5 +72,5 @@ export default function Home() {
       </div>
       {/* // <!-- END: body-wrap --></div> */}
     </div>
-  )
+  );
 }

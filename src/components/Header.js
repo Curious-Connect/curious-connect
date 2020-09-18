@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "../stylesheets/Header.css";
 
+import Tritable from "../segments/Tritable";
 export default class Header extends Component {
   render() {
     const settings = {
@@ -18,7 +19,10 @@ export default class Header extends Component {
     };
     return (
       <div className="container mt-5">
-        <div className="row cols-xs-space cols-md-space cols-sm-space">
+        <Tritable />
+        {/* splitted version 
+
+                <div className="row cols-xs-space cols-md-space cols-sm-space">
           <div className="col-lg-6">
             <div style={{ height: "600px" }} className="frontImage"></div>
           </div>
@@ -31,7 +35,7 @@ export default class Header extends Component {
                 <span className="section-title-delimiter clearfix d-none"></span>
               </div>
             </div>
-            <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
+             <div className="fluid-paragraph fluid-paragraph-sm c-gray-light strong-300 text-center">
               <p style={{ fontWeight: "400" }} className="line-height-1_8">
                 <span className="bold">
                   Trouve ton entreprise + la formation qui te correspond !
@@ -46,7 +50,6 @@ export default class Header extends Component {
                 <br /> <b>Comment ? </b>
                 <br />
                 <li>
-                  {/* 2 semaines de programme accéléré pour booster ta candidature */}
                 </li>
                 <li> 1 campagne de 300-500 candidatures spontanées </li>
                 <li> du coaching individuel personnalisé pendant 1 mois </li>
@@ -60,21 +63,36 @@ export default class Header extends Component {
           </div>
         </div>
 
-        {/* <div className="withBg">
+        
+        
+        
+        */}
 
-        <Slider {...settings} style={{ display: "flex", alignItems: "center", height: "100%" }}>
-          <div>
-            <h3 className="heading heading-h3 strong-700 c-white">
-              <span style={{ opacity: 0.9 }}>Curious Connect accélère la Carrière de Jeunes Talents en Alternance</span>
-            </h3>
+        {/*
+          <div className="withBg">
+            <Slider
+              {...settings}
+              style={{ display: "flex", alignItems: "center", height: "100%" }}
+            >
+              <div>
+                <h3 className="heading heading-h3 strong-700 c-white">
+                  <span style={{ opacity: 0.9 }}>
+                    Curious Connect accélère la Carrière de Jeunes Talents en
+                    Alternance
+                  </span>
+                </h3>
+              </div>
+              <div>
+                <h3 className="heading heading-h3 strong-700 c-white">
+                  <span style={{ opacity: 0.9 }}>
+                    Nous accompagnons Entreprises, Ecoles et Alternants vers
+                    l'excellence
+                  </span>
+                </h3>
+              </div>
+            </Slider>
           </div>
-          <div>
-            <h3 className="heading heading-h3 strong-700 c-white">
-              <span style={{ opacity: 0.9 }}>Nous accompagnons Entreprises, Ecoles et Alternants vers l'excellence</span>
-            </h3>
-          </div>
-        </Slider>
-    </div> */}
+        */}
       </div>
     );
   }
