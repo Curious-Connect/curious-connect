@@ -45,7 +45,7 @@ export default function Home() {
                           action: "a company opened the inscription form",
                         });
                         window.open(
-                          "https://airtable.com/shr7oQRclG6pOitQp",
+                          "https://airtable.com/shr3TvqVVJ7MxAHlu",
                           "_blank"
                         );
                       }}
