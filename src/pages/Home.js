@@ -25,7 +25,7 @@ export default function Home() {
             <div className="st-content">
               <div className="st-content-inner">
                 {/*<a href="#contact"> <div class="alert alert-danger" role="alert">
-                  ⚠️📢 Fin des inscriptions <b style={{ color: "#E61D25" }}>aujourd'hui à minuit!</b>
+                  ⚠️📢 Fin des inscriptions <b style={{ color: "#E61D25" }}>aujourd'hui!</b>
   </div> </a>*/}
                 <Nav />
                 <section className="header">
